@@ -18,3 +18,33 @@ The code was developed and tested on the following environment:
 You can install the required packages using:
 ```bash
 pip install -r requirements.txt
+
+
+Dataset Preparation
+We evaluate our method on two public spontaneous micro-expression databases. Please download them from their official sources and strictly follow their license agreements:
+
+CASME II
+
+SMIC-E-HS
+
+Preprocessing (Optical Flow):
+We use TV-L1 optical flow. Please place the raw videos in the ./data/ directory and run:
+
+python preprocess_optical_flow.py --dataset CASME_II
+
+Training and Testing
+
+To train the GLACNN model with Leave-One-Subject-Out (LOSO) cross-validation:
+
+python train.py --dataset CASME_II --sliding_interval 0.2 --label_boundary 0.6
+
+To evaluate the trained model:
+python test.py --model_path ./weights/CASME_II_fold1.h5
+
+Results
+Our method achieves state-of-the-art performance on both datasets:
+Dataset	         F1-Score	      Accuracy
+CASME II	       0.7597	        0.8167
+SMIC-E-HS	       0.4018	        0.8676
+
+
