@@ -4,6 +4,7 @@ GLACNN: Global-Local Attention Fusion with Sliding Interval Classification for S
 
 This is the official TensorFlow implementation of the paper:
 "Global-Local Attention Fusion with Sliding Interval Classification for Spontaneous Micro-Expression Spotting"
+Author: Zhihao Zhang, Ying Huang, Tong Chen, Ke Zhao, Xiaolan Fu
 
 Introduction
 Micro-expressions are brief, involuntary facial movements. This project proposes GLACNN, a spatiotemporal network that formulates spotting as sliding-interval classification. It utilizes TV-L1 optical flow sequences from the global face and four local regions of interest (ROIs), processed through 3D CNN branches with Squeeze-and-Excitation (SE) attention modules.
