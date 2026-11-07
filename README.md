@@ -2,6 +2,7 @@
 
 This is the official implementation of the project:
 **"Global-Local Attention Fusion with Sliding Interval Classification for Spontaneous Micro-Expression Spotting"**
+**Zhihao Zhang, Ying Huang, Tong Chen, Ke Zhao, Xiaolan Fu**
 
 ## 📖 Introduction
 Micro-expressions are brief, involuntary facial movements that leak suppressed emotions. Spotting them in long untrimmed videos is challenging due to their short duration, low intensity, and frequent non-expression motions. 
