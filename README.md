@@ -45,7 +45,7 @@ python test.py --model_path ./weights/CASME_II_fold1.h5
 
 Results
 Our method achieves state-of-the-art performance on both datasets:
-Dataset	         F1-Score	      Accuracy
+Dataset	            F1-Score	      Accuracy
 CASME II	       0.7597	        0.8167
 SMIC-E-HS	       0.4018	        0.8676
 
