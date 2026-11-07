@@ -63,14 +63,14 @@ Our method achieves state-of-the-art performance on both datasets, outperforming
 | **SMIC-E-HS** | **0.4018** | 0.8676 |
 
 ## 📝 Citation
-If you find this code useful for your research, please cite our paper:
+If you find this code useful for your research, please cite our reaesarch:
 ```bibtex
 @article{zhang2026glacnn,
   title={Global-Local Attention Fusion with Sliding Interval Classification for Spontaneous Micro-Expression Spotting},
   author={Zhihao Zhang, Ying Huang, Tong Chen, Ke Zhao, Xiaolan Fu},
-  journal={Entropy},
+  journal={******},
   year={2026},
-  publisher={MDPI}
+  publisher={******}
 }
 ```
 
