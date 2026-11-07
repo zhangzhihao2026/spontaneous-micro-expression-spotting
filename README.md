@@ -2,6 +2,7 @@
 
 This is the official implementation of the project:
 **"Global-Local Attention Fusion with Sliding Interval Classification for Spontaneous Micro-Expression Spotting"**
+
 **Zhihao Zhang, Ying Huang, Tong Chen, Ke Zhao, Xiaolan Fu**
 
 ## 📖 Introduction
