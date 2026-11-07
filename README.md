@@ -4,6 +4,7 @@ GLACNN: Global-Local Attention Fusion with Sliding Interval Classification for S
 
 This is the official TensorFlow implementation of the paper:
 "Global-Local Attention Fusion with Sliding Interval Classification for Spontaneous Micro-Expression Spotting"
+
 Author: Zhihao Zhang, Ying Huang, Tong Chen, Ke Zhao, Xiaolan Fu
 
 Introduction
