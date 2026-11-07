@@ -12,7 +12,7 @@ To address these challenges, we propose **GLACNN**, a spatiotemporal network tha
 
 ## 🛠️ Environment & Dependencies
 The code was developed and tested on the following environment:
-*   **OS:** Ubuntu / Windows 10
+*   **OS:** Windows 10
 *   **Hardware:** NVIDIA GeForce RTX 2080 (12G)
 *   **Deep Learning Framework:** TensorFlow 2.0.0
 *   **Python:** 3.7+
